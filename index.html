@@ -1,8 +1,27 @@
 <!DOCTYPE html>
-<html>
-<head><title>我的个人网站</title></head>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简单提示示例</title>
+</head>
 <body>
-<h1>欢迎来到我的世界！</h1>
-<p>热爱编程、旅行和咖啡。</p>
+    <h1>欢迎来到我的网页</h1>
+    <p>点击按钮查看提示</p>
+    
+    <!-- 添加一个按钮，点击时触发提示 -->
+    <button onclick="showAlert()">点击我</button>
+
+    <script>
+        // 定义显示提示框的函数
+        function showAlert() {
+            alert('这是一个简单的提示框！');
+        }
+        
+        // 也可以页面加载时自动弹出（二选一）
+        // window.onload = function() {
+        //     alert('页面加载完成！');
+        // };
+    </script>
 </body>
 </html>
